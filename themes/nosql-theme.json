@@ -1,0 +1,40 @@
+{
+    "name": "nosql-theme",
+    "type": "light", 
+    "colors": {
+        "editor.foreground": "#000000", 
+        "editor.background": "#FFFFFF" 
+    },
+    "tokenColors": [
+        {
+            "scope": "keyword.control.nosql",
+            "settings": {
+                "foreground": "#165ffa"
+            }
+        },
+        {
+            "scope": "function.control.nosql",
+            "settings": {
+                "foreground": "#db9107"
+            }
+        },
+        {
+            "scope": "string.quoted.double.nosql",
+            "settings": {
+                "foreground": "#c90202"
+            }
+        },
+        {
+            "scope": "string.quoted.single.nosql",
+            "settings": {
+                "foreground": "#c90202"
+            }
+        },
+        {
+            "scope": "comment.line.double-dash.nosql",
+            "settings": {
+                "foreground": "#008000"
+            }
+        }
+    ]
+}

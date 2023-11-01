@@ -1,0 +1,34 @@
+{
+  "name": "nosql-highlighter",
+  "displayName": "NoSQL highlighter",
+  "description": "Brings syntax highlighting functionality for NoSQL.",
+  "version": "0.0.1",
+  "engines": {
+    "vscode": "^1.83.0"
+  },
+  "categories": [
+    "Programming Languages"
+  ],
+  "contributes": {
+    "languages": [{
+      "id": "nosql",
+      "aliases": ["NoSQL", "nosql"],
+      "extensions": [".nosql"],
+      "configuration": "./language-configuration.json"
+    }],
+    "themes": [
+      {
+          "label": "nosqlTheme",
+          "uiTheme": "vs",
+          "path": "./themes/nosql-theme.json"
+      }],
+    "grammars": [{
+      "language": "nosql",
+      "scopeName": "source.nosql",
+      "path": "./syntaxes/nosql.tmLanguage.json"
+    }]
+  },
+  "assets": [
+    "media/vsCodeExtension.gif"
+  ]
+}

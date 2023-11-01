@@ -1,0 +1,71 @@
+{
+	"$schema": "https://raw.githubusercontent.com/martinring/tmlanguage/master/tmlanguage.json",
+	"name": "NoSQL",
+	"patterns": [
+		{
+			"include": "#keywords"
+		},
+		{
+			"include": "#functions"
+		},
+		{
+			"include": "#strings"
+		},
+		{
+			"include": "#comments"
+		},
+		{
+			"include": "#strings-single-quote"
+		}
+	],
+	"repository": {
+		"keywords": {
+			"patterns": [{
+				"name": "keyword.control.nosql",
+				"match": "\\b(INSERT|SELECT|UPDATE|DELETE|FROM|WHERE|ORDER BY|OFFSET|LIMIT|JOIN|IN|AS|GROUP BY|COUNT|SUM|MAX|MIN|BETWEEN|AND|OR|SELECT VALUE|WHERE NOT|FUCTION|VALUE|DISTINCT|LIKE|ABS|EXP|SIN|insert|select|update|delete|from|where|order by|offset|limit|join|in|as|group by|count|sum|max|min|between|and|or|select value|where not|function|value|distinct|like|abs|exp|sin)\\b"
+			}
+		]
+		},
+		"functions": {
+			"patterns": [{
+				"name": "function.control.nosql",
+				"match": "\\b(ARRAY_CONCAT|ARRAY_CONTAINS|ARRAY_LENGTH|ARRAY_SLICE|GetCurrentDateTime()|GetCurrentTicks()|GetCurrentTimestamp()|array_concat|array_contains|array_length|array_slice)\\b"
+			}
+		]
+		},
+		"strings": {
+			"name": "string.quoted.double.nosql",
+			"begin": "\"",
+			"end": "\"",
+			"patterns": [
+				{
+					"name": "constant.character.escape.nosql",
+					"match": "\\\\."
+				}
+			]
+		},
+		"comments": {
+			"name": "comment.line.double-dash.nosql",
+			"begin": "--",
+			"end": "$",
+			"patterns": [
+				{
+					"name": "punctuation.definition.comment.nosql",
+					"match": "--.*"
+				}
+			]
+		},
+		"strings-single-quote": {
+			"name": "string.quoted.single.nosql",
+			"begin": "'",
+			"end": "'",
+			"patterns": [
+				{
+					"name": "constant.character.escape.nosql",
+					"match": "\\\\."
+				}
+			]
+		}
+	},
+	"scopeName": "source.nosql"
+}
