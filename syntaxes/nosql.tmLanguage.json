@@ -28,7 +28,7 @@
 		},
 		"functions": {
 			"patterns": [{
-				"name": "function.control.nosql",
+				"name": "keyword.other.nosql",
 				"match": "\\b(ARRAY_CONCAT|ARRAY_CONTAINS|ARRAY_LENGTH|ARRAY_SLICE|GetCurrentDateTime()|GetCurrentTicks()|GetCurrentTimestamp()|array_concat|array_contains|array_length|array_slice)\\b"
 			}
 		]
@@ -45,7 +45,7 @@
 			]
 		},
 		"comments": {
-			"name": "comment.line.double-dash.nosql",
+			"name": "comment.line.double-dash",
 			"begin": "--",
 			"end": "$",
 			"patterns": [

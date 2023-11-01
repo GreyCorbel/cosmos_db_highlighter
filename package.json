@@ -1,8 +1,10 @@
 {
-  "name": "nosql-highlighter",
-  "displayName": "NoSQL highlighter",
-  "description": "Brings syntax highlighting functionality for NoSQL.",
-  "version": "0.0.1",
+  "name": "cosmosdb-query-highlighter",
+  "displayName": "CosmosDB Query Highlighter",
+  "description": "Brings syntax highlighting functionality for CosmosDB querying.",
+  "version": "0.0.5",
+  "publisher": "GreyCorbelSolutions",
+  "icon": "images/marketplaceIcon.png",
   "engines": {
     "vscode": "^1.83.0"
   },
@@ -16,19 +18,14 @@
       "extensions": [".nosql"],
       "configuration": "./language-configuration.json"
     }],
-    "themes": [
-      {
-          "label": "nosqlTheme",
-          "uiTheme": "vs",
-          "path": "./themes/nosql-theme.json"
-      }],
     "grammars": [{
       "language": "nosql",
       "scopeName": "source.nosql",
       "path": "./syntaxes/nosql.tmLanguage.json"
     }]
   },
-  "assets": [
-    "media/vsCodeExtension.gif"
-  ]
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/RomanSebranek/nosql_highlighter.git"
+  }
 }

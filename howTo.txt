@@ -1,0 +1,20 @@
+Vytvoření VSIX pro VS Code jako VS Code Extension:
+
+#nainstalovat yo balíček
+1. npm install -g yo generator-code
+
+#vytvořit projekt
+2. yo code (pozor může chctí vyšší práva, použij sudo), tj. sudo yo code
+
+3. vývoj rozšíření
+4. testování - F5 otevře novou instaci vs code v testovacím režimu, mohu vyzkoušet vytvořenou Extension
+
+# vytvoření VSIX balíčku
+5. npm install -g vsce
+6. npm --version
+7. vsce package  //vytvoří balíček VSIX
+
+# publikace
+8. https://marketplace.visualstudio.com/manage/publishers/greycorbelsolutions
+9. create extension -> vs code
+

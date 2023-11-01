@@ -13,7 +13,7 @@ Key Features:
 
 Get started with the NOSQL Syntax Highlighter and take your Cosmos DB development to the next level. Happy coding!
 
-![NoSql-Highlighter Extension](vscode-resource:/media/vsCodeExtension.gif)
+![CosmosDB Query Highlight Extension](https://github.com/RomanSebranek/nosql_highlighter/blob/main/media/vsCodeExtension.gif)
 
 ## Requirements
 
@@ -27,8 +27,6 @@ No special setting is required.
 ## Release Notes
 
 Initial release of NoSQL-Highlighter Extension.
-
-### 0.0.1
 
 Initial release.
 
