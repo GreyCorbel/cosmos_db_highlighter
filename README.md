@@ -13,7 +13,7 @@ Key Features:
 
 Get started with the NOSQL Syntax Highlighter and take your Cosmos DB development to the next level. Happy coding!
 
-![CosmosDB Query Highlight Extension](https://github.com/RomanSebranek/nosql_highlighter/blob/main/media/vsCodeExtension.gif)
+![Demo](images/query.png)
 
 ## Requirements
 
