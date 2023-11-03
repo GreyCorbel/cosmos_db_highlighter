@@ -6,7 +6,16 @@
 			"include": "#keywords"
 		},
 		{
+			"include": "#keywordsSmall"
+		},
+		{
 			"include": "#functions"
+		},
+		{
+			"include": "#functionsSmall"
+		},
+		{
+			"include": "#functionsSpecial"
 		},
 		{
 			"include": "#strings"
@@ -23,16 +32,37 @@
 	],
 	"repository": {
 		"keywords": {
-			"patterns": [{
+			"patterns": [        {
 				"name": "keyword.control.nosql",
-				"match": "(?i)\\b(END_)?(INSERT|SELECT|UPDATE|DELETE|FROM|WHERE|ORDER BY|OFFSET|LIMIT|JOIN|IN|AS|GROUP BY|COUNT|SUM|MAX|MIN|BETWEEN|AND|OR|SELECT VALUE|WHERE NOT|FUCTION|VALUE|DISTINCT|LIKE|ABS|EXP|SIN|NOT)\\b"
+				"match": "\\b(INSERT|SELECT|UPDATE|DELETE|FROM|WHERE|ORDER BY|JOIN|GROUP BY|COUNT|VALUE|DISTINCT|LIKE)\\b"
+			}
+		]
+		},
+		"keywordsSmall": {
+			"patterns": [        {
+				"name": "keyword.control.nosql",
+				"match": "\\b(insert|select|update|delete|from|where|order by|join|group by|count|value|distinct|like)\\b"
 			}
 		]
 		},
 		"functions": {
 			"patterns": [{
 				"name": "keyword.other.nosql",
-				"match": "(?i)\\b(END_)?(ARRAY_CONCAT|ARRAY_CONTAINS|ARRAY_LENGTH|ARRAY_SLICE)\\b"
+				"match": "\\b(ARRAY_CONCAT|ARRAY_CONTAINS|ARRAY_LENGTH|ARRAY_SLICE|CHOOSE|OFFSET|LIMIT|IN|AS|SUM|MAX|MIN|BETWEEN|AND|OR|EXISTS|FUNCTION|ABS|EXP|SIN|NOT|CONCAT|CONTAINS|ENDSWITH|INDEX_OF|LEFT|LENGTH|LOWER|LTRIM|REGEXMATCH|REPLACE|REPLICATE|REVERSE|RIGHT|RTRIM|STARTSWITH|STRINGEQUALS|SUBSTRING|TRIM|UPPER|ACOS|ASIN|ATAN|ATN2|CEILING|COT|DEGREES|FLOOR|LOG|LO10|PI|POWER|RADIANS|RAND|ROUND|SIGN|SQRT|SQUARE|TRUNC|IS_ARRAY|IS_BOOL|IS_DEFINED|IS_FINITE_NUMBER|IS_INTEGER|IS_NULL|IS_NUMBER|IS_OBJECT|ISPRIMITIVE|IS_STRING|ST_AREA|ST_DISTANCE|ST_INTERSECTS|ST_ISVALID|ST_ISVALIDDETAILED|ST_WITHIN)\\b"
+			}
+		]
+		},
+		"functionsSmall": {
+			"patterns": [{
+				"name": "keyword.other.nosql",
+				"match": "\\b(array_concat|array_contains|array_length|array_slice|choose|offset|limit|in|as|sum|max|min|between|and|or|exists|function|abs|exp|sin|not|concat|contains|endswith|index_of|left|length|lower|ltrim|regexmatch|replace|replicate|reverse|right|rtrim|startswith|stringequals|substring|trim|upper|acos|asin|atan|atn2|ceiling|cot|degrees|floor|log|log10|pi|power|radians|rand|round|sign|sqrt|square|trunc|is_array|is_bool|is_defined|is_finite_number|is_integer|is_null|is_number|is_object|isprimitive|is_string|st_area|st_distance|st_intersects|st_isvalid|st_isvaliddetailed|st_within)\\b"
+			}
+		]
+		},
+		"functionsSpecial": {
+			"patterns": [{
+				"name": "keyword.other.nosql",
+				"match": "\\b(ObjectToArray|SetIntersect|SetUnion|DocumentId|StringToObject|ToString|IntAdd|IntBitAnd|IntBitLeftShift|IntBitNot|IntBitOr|IntBitRightShift|IntBitXor|IntDiv|IntMod|IntMul|IntSub|NumberBin|GetCurrentTime|GetCurrentTimeStatic|GetCurrentTicks|GetCurrentTicksStatic|GetCurrentTimeStamp|GetCurrentTimeStampStatic|DateTimeAdd|DateTimeBin|DateTimeDiff|DateTimeFromParts|DateTimePart|DateTimeToTicks|DateTimeToTimestamp|TicksToDateTime|TimestampToDateTime)\\b"
 			}
 		]
 		},
