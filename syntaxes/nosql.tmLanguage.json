@@ -16,6 +16,9 @@
 		},
 		{
 			"include": "#strings-single-quote"
+		},
+		{
+			"include": "#blockComments"
 		}
 	],
 	"repository": {
@@ -45,13 +48,22 @@
 			]
 		},
 		"comments": {
-			"name": "comment.line.double-dash",
+			"name": "comment.line.double-dash.nosql",
 			"begin": "--",
 			"end": "$",
 			"patterns": [
 				{
 					"name": "punctuation.definition.comment.nosql",
 					"match": "--.*"
+				}
+			]
+		},
+		"blockComments": {
+			"patterns": [
+				{
+					"begin": "/\\*",
+					"end": "\\*/",
+					"name": "comment.block.nosql"
 				}
 			]
 		},
