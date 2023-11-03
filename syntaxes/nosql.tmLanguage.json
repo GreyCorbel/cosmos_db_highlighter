@@ -25,14 +25,14 @@
 		"keywords": {
 			"patterns": [{
 				"name": "keyword.control.nosql",
-				"match": "\\b(INSERT|SELECT|UPDATE|DELETE|FROM|WHERE|ORDER BY|OFFSET|LIMIT|JOIN|IN|AS|GROUP BY|COUNT|SUM|MAX|MIN|BETWEEN|AND|OR|SELECT VALUE|WHERE NOT|FUCTION|VALUE|DISTINCT|LIKE|ABS|EXP|SIN|NOT|insert|select|update|delete|from|where|order by|offset|limit|join|in|as|group by|count|sum|max|min|between|and|or|select value|where not|function|value|distinct|like|abs|exp|sin|not)\\b"
+				"match": "(?i)\\b(INSERT|SELECT|UPDATE|DELETE|FROM|WHERE|ORDER BY|OFFSET|LIMIT|JOIN|IN|AS|GROUP BY|COUNT|SUM|MAX|MIN|BETWEEN|AND|OR|SELECT VALUE|WHERE NOT|FUCTION|VALUE|DISTINCT|LIKE|ABS|EXP|SIN|NOT)\\b"
 			}
 		]
 		},
 		"functions": {
 			"patterns": [{
 				"name": "keyword.other.nosql",
-				"match": "\\b(ARRAY_CONCAT|ARRAY_CONTAINS|ARRAY_LENGTH|ARRAY_SLICE|GetCurrentDateTime()|GetCurrentTicks()|GetCurrentTimestamp()|array_concat|array_contains|array_length|array_slice)\\b"
+				"match": "(?i)\\b(ARRAY_CONCAT|ARRAY_CONTAINS|ARRAY_LENGTH|ARRAY_SLICE)\\b"
 			}
 		]
 		},
