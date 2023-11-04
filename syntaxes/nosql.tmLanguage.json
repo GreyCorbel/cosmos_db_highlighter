@@ -6,6 +6,9 @@
 			"include": "#keywords"
 		},
 		{
+			"include": "#constants"
+		},
+		{
 			"include": "#functions"
 		},
 		{
@@ -40,6 +43,15 @@
 				"match": "(?i)\\b(DESC|ASC|AS)\\b"
 			    }
 		    ]
+		},
+		"constants": {
+			"patterns": [
+                {
+                    "name": "constant.language.nosql",
+                    "match": "(?i)\\b(true|false|null)\\b"
+                }
+				
+		]
 		},
 		"functions": {
 			"patterns": [
