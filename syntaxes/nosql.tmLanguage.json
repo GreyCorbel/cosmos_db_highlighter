@@ -34,7 +34,7 @@
 		"keywords": {
 			"patterns": [        {
 				"name": "keyword.control.nosql",
-				"match": "\\b(INSERT|SELECT|UPDATE|DELETE|FROM|WHERE|ORDER BY|JOIN|GROUP BY|COUNT|VALUE|DISTINCT|LIKE)\\b"
+				"match": "(?i)\\b(INSERT|SELECT|UPDATE|DELETE|FROM|WHERE|ORDER BY|JOIN|GROUP BY|COUNT|VALUE|DISTINCT|LIKE)\\b"
 			}
 		]
 		},
