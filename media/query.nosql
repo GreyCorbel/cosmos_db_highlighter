@@ -1,10 +1,9 @@
-select
-    c.aadUser.userPrincipalName         as upn,
-    c.aadUser.onPremisesSamAccountName  as uid,
-    c.aadUser.crestCode                 as crestCode,
-    c.aadUser.division                  as division,
-    c.aadUser.country                   as country
-from c
-where
-    ARRAY_CONTAINS(c.aadUser.licenses,'PHSYS')
-    and CONTAINS(c.teamsUser.onlineVoiceRoutingPolicy, '-local', true) -- some comment here
+array_contains()
+DocumentId
+SetUnion 
+limit
+offset
+IntBitNot
+concat
+CONCAT 
+length 
