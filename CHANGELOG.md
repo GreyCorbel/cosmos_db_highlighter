@@ -7,3 +7,6 @@
 ## v1.0.2
 - added support for Parametrized queries
 - added support for numbers
+
+## v1.0.3
+- added support for constants
