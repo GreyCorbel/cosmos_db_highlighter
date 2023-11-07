@@ -2,7 +2,7 @@
   "name": "cosmosdb-query-highlighter",
   "displayName": "Cosmos DB Query Highlighter",
   "description": "Brings syntax highlighting functionality for Cosmos DB querying.",
-  "version": "1.0.2",
+  "version": "1.0.3",
   "publisher": "GreyCorbelSolutions",
   "icon": "images/marketplaceIcon.png",
   "engines": {
@@ -26,6 +26,6 @@
   },
   "repository": {
     "type": "git",
-    "url": "https://github.com/RomanSebranek/nosql_highlighter.git"
+    "url": "https://github.com/GreyCorbel/cosmos_db_highlighter.git"
   }
 }
