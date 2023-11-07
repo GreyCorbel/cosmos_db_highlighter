@@ -25,6 +25,12 @@
 		},
 		{
 			"include": "#blockComments"
+		},
+		{
+			"include": "#parameters"
+		},
+		{
+			"include": "#numbers"
 		}
 	],
 	"repository": {
@@ -127,7 +133,15 @@
 					"match": "\\\\."
 				}
 			]
-		}
+		},
+        "parameters": {
+            "name": "constant.language.nosql",
+            "match": "\\@\\w+"
+        },
+		"numbers": {
+			"name": "constant.numeric.nosql",
+			"match": "\\b\\d+\\b"
+		  }
 	},
 	"scopeName": "source.nosql"
 }
