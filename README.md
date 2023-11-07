@@ -1,4 +1,4 @@
-# NoSQL-Highlighter
+# Cosmos DB NoSQL Highlighter
 
 Enhance your Visual Studio Code experience with the NOSQL Syntax Highlighter for Azure Cosmos DB. 
 This extension provides advanced syntax highlighting for NOSQL queries and commands used in Azure Cosmos DB, making it easier to work with your NoSQL data.
@@ -26,7 +26,7 @@ No special setting is required.
 
 ## Release Notes
 
-Initial release of NoSQL-Highlighter Extension.
+Initial release of Cosmos DB NoSQL Highlighter Extension.
 
 Initial release.
 
