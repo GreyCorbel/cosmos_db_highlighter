@@ -24,9 +24,6 @@
 			"include": "#strings-single-quote"
 		},
 		{
-			"include": "#blockComments"
-		},
-		{
 			"include": "#parameters"
 		},
 		{

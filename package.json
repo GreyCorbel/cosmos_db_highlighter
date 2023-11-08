@@ -2,7 +2,7 @@
   "name": "cosmosdb-query-highlighter",
   "displayName": "Cosmos DB Query Highlighter",
   "description": "Brings syntax highlighting functionality for Cosmos DB querying.",
-  "version": "1.0.5",
+  "version": "1.0.6",
   "publisher": "GreyCorbelSolutions",
   "icon": "images/marketplaceIcon.png",
   "engines": {
