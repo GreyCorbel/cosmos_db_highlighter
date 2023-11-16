@@ -10,3 +10,6 @@
 
 ## v1.0.3
 - added support for constants
+
+## v1.0.8
+- added select * from c where c. snippet

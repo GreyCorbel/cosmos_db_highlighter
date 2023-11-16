@@ -2,7 +2,7 @@
   "name": "cosmosdb-query-highlighter",
   "displayName": "Cosmos DB Query Highlighter",
   "description": "Brings syntax highlighting functionality for Cosmos DB querying.",
-  "version": "1.0.6",
+  "version": "1.0.8",
   "publisher": "GreyCorbelSolutions",
   "icon": "images/marketplaceIcon.png",
   "engines": {
@@ -18,6 +18,12 @@
       "extensions": [".nosql"],
       "configuration": "./language-configuration.json"
     }],
+    "snippets": [
+      {
+        "language": "nosql",
+        "path": "./syntaxes/nosql-snippets.json"
+      }
+    ],
     "grammars": [{
       "language": "nosql",
       "scopeName": "source.nosql",

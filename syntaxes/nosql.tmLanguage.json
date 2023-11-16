@@ -68,7 +68,7 @@
 			    },
                 {
 				    "name": "entity.name.function.string.nosql",
-				    "match": "(?i)\\b(CONCAT|CONTAINS|ENDSWITH|INDEX_OF|LEFT|LENGTH|LOWER|LTRIM|REGEXMATCH|REPLACE|REPLICATE|REVERSE|RIGHT|RTRIM|STARTSWITH|STRINGEQUALS|SUBSTRING|TRIM|UPPER)\\b"
+				    "match": "(?i)\\b(CONCAT|CONTAINS|ENDSWITH|INDEX_OF|LEFT|LENGTH|LOWER|LTRIM|REGEXMATCH|REPLACE|REPLICATE|REVERSE|RIGHT|RTRIM|STARTSWITH|STRINGEQUALS|SUBSTRING|TRIM|UPPER|STRING_EQUALS)\\b"
 			    },
                 {
 				    "name": "entity.name.function.geospatial.nosql",
