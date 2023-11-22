@@ -22,18 +22,6 @@ Get started with the NOSQL Syntax Highlighter and take your Cosmos DB developmen
 
 **Code snippets:**
 - select (select * from c where c.)
-- insert (INSERT INTO c ({ "field1": "value1", "field2": "value2", "field3": "value3" }))
-- update (UPDATE c SET c.field = "new value" WHERE c.id = @documentId)
-- delete (DELETE FROM c WHERE c.id = @documentId)
-- aggregate (SELECT COUNT(c) AS totalCount FROM c WHERE c.type = @docType)
-
-![Demo](media/codeSnippets.gif)
-
-**Stored procedure snippets:**
-- storedPocedure (general stored procedure)
-- creteCosmosDbItems (create documents to specific collection)
-
-![Demo](media/storedProcedureSnippets.gif)
 
 ## Requirements
 There are no specific requirements that the extension requires.
