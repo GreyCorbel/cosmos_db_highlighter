@@ -21,7 +21,11 @@
     "snippets": [
       {
         "language": "nosql",
-        "path": "./syntaxes/nosql-snippets.json"
+        "path": "./syntaxes/nosql-code-snippets.json"
+      },
+      {
+        "language": "nosql",
+        "path": "./syntaxes/nosql-stored-procedure-snippets.json"
       }
     ],
     "grammars": [{

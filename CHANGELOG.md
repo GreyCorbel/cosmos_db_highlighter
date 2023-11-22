@@ -13,3 +13,14 @@
 
 ## v1.0.8
 - added select * from c where c. snippet
+  
+## v1.1.0
+- added code snippets for:
+  - insert
+  - update
+  - delete
+  - aggregate
+
+- added stored procedure snippets for:
+  - general stored procedure
+  - create cosmos db items

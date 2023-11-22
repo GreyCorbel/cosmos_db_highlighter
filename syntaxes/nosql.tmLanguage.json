@@ -84,7 +84,7 @@
 			"patterns": [
                 {
                     "name": "entity.name.function.nosql",
-                    "match": "(?i)\\b(COUNT|ObjectToArray|SetIntersect|SetUnion|DocumentId|StringToObject|ToString|IntAdd|IntBitAnd|IntBitLeftShift|IntBitNot|IntBitOr|IntBitRightShift|IntBitXor|IntDiv|IntMod|IntMul|IntSub|NumberBin|GetCurrentTime|GetCurrentTimeStatic|GetCurrentTicks|GetCurrentTicksStatic|GetCurrentTimeStamp|GetCurrentTimeStampStatic|DateTimeAdd|DateTimeBin|DateTimeDiff|DateTimeFromParts|DateTimePart|DateTimeToTicks|DateTimeToTimestamp|TicksToDateTime|TimestampToDateTime)\\b"
+                    "match": "(?i)\\b(IF|FUNCTION|COUNT|ObjectToArray|SetIntersect|SetUnion|DocumentId|StringToObject|ToString|IntAdd|IntBitAnd|IntBitLeftShift|IntBitNot|IntBitOr|IntBitRightShift|IntBitXor|IntDiv|IntMod|IntMul|IntSub|NumberBin|GetCurrentTime|GetCurrentTimeStatic|GetCurrentTicks|GetCurrentTicksStatic|GetCurrentTimeStamp|GetCurrentTimeStampStatic|DateTimeAdd|DateTimeBin|DateTimeDiff|DateTimeFromParts|DateTimePart|DateTimeToTicks|DateTimeToTimestamp|TicksToDateTime|TimestampToDateTime)\\b"
                 }
 				
 		]

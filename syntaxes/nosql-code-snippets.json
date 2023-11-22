@@ -1,0 +1,47 @@
+{
+  "CosmosDB Snippets": {
+    "Select * from c": {
+      "prefix": "select",
+      "body": ["select ${1:*}", "from c", "where", "  c.${2}"],
+      "description": "CosmosDB Select Query"
+    },
+    "Insert Document": {
+      "prefix": "insert",
+      "body": [
+          "INSERT INTO c ({",
+          "\t\"${1:field1}\": \"${2:value1}\",",
+          "\t\"${3:field2}\": \"${4:value2}\",",
+          "\t\"${5:field3}\": \"${6:value3}\"",
+          "})"
+      ],
+      "description": "Insert a document into Cosmos DB"
+    },
+    "Update Document": {
+      "prefix": "update",
+      "body": [
+          "UPDATE c",
+          "SET c.${1:field} = \"${2:new value}\"",
+          "WHERE c.id = ${3:@documentId}"
+      ],
+      "description": "Update a document in Cosmos DB"
+    },
+    "Delete Document": {
+      "prefix": "delete",
+      "body": [
+          "DELETE FROM c",
+          "WHERE c.id = ${1:@documentId}"
+      ],
+      "description": "Delete a document from Cosmos DB"
+    },
+    "Aggregate Query": {
+      "prefix": "aggregate",
+      "body": [
+          "SELECT COUNT(c) AS totalCount",
+          "FROM c",
+          "WHERE c.type = ${1:@docType}"
+      ],
+      "description": "Aggregate query with Cosmos DB"
+    }
+  }
+}
+
