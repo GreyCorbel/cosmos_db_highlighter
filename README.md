@@ -8,24 +8,29 @@ This extension provides advanced syntax highlighting for NOSQL queries and comma
 Key Features:
 - Highlight keywords, operators, and functions specific to NOSQL in Azure Cosmos DB.
 - Distinguish between strings, numeric values, and other data types for better readability.
+- Increase efficiency with snippets.
 - Easily identify comments and documentation in your NOSQL code.
 - Improve code comprehension and reduce errors when working with Cosmos DB queries.
 
 Get started with the NOSQL Syntax Highlighter and take your Cosmos DB development to the next level. Happy coding!
 
+## Syntax highlighting
 ![Demo](media/vsCodeExtension.gif)
 
-## Requirements
+## Snippets using
+### List of snippets:
 
+**Code snippets:**
+- select (select * from c where c.)
+
+## Requirements
 There are no specific requirements that the extension requires.
 
 ## Extension Settings
-
 No special setting is required.
 
 
 ## Release Notes
-
 Initial release of Cosmos DB NoSQL Highlighter Extension.
 
 Initial release.

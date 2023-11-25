@@ -1,0 +1,9 @@
+{
+  "CosmosDB Snippets": {
+    "Select * from c": {
+      "prefix": "select",
+      "body": ["select ${1:*}", "from c", "where", "  c.${2}"],
+      "description": "CosmosDB Select Query"
+    }
+  }
+}
