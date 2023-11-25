@@ -1,7 +1,27 @@
 {
-    "Select * from c": {
-      "prefix": "select",
-      "body": ["select *${1}", "from c", "where", "  c.${2}"]
+    "CosmosDB Snippets": {
+      "select": {
+        "prefix": "select",
+        "body": [
+          "select",
+          "  ${1:*}", 
+          "from c", 
+          "where", 
+          "  c.${2}"],
+        "description": "CosmosDB Select Query"
+      },
+      "exists": {
+          "prefix": "exists",
+          "body": [
+              "exists",
+              "(", 
+              "  select value x",
+              "  from x in c.${1: }",
+              "  where", 
+              "    x.${2}",
+              ")"
+          ],
+          "description": "CosmosDB sub-query with exists expression"
+      }
     }
-}
-  
+  }
