@@ -8,7 +8,7 @@
           "from c", 
           "where", 
           "  c.${2}"],
-        "description": "CosmosDB Select Query"
+        "description": "Cosmos DB Select Query"
       },
       "exists": {
           "prefix": "exists",
@@ -21,7 +21,7 @@
               "    x.${2}",
               ")"
           ],
-          "description": "CosmosDB sub-query with exists expression"
+          "description": "Cosmos DB exists expression with sub-query"
       },
       "join": {
           "prefix": "join",
@@ -29,7 +29,14 @@
               "join",
               "  d in in c.${1: }"
           ],
-          "description": "CosmosDB sub-query with exists expression"
+          "description": "Cosmos DB join statement"
+      },
+      "offset": {
+          "prefix": "offset",
+          "body": [
+              "offset ${1: } limit ${2: }"
+          ],
+          "description": "Cosmos DB offset limit clause"
       }
     }
   }
