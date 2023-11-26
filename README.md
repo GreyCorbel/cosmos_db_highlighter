@@ -21,7 +21,12 @@ Get started with the NOSQL Syntax Highlighter and take your Cosmos DB developmen
 ### List of snippets:
 
 **Code snippets:**
-- select (select * from c where c.)
+- SELECT statement
+- EXISTS expression
+- JOIN statement
+- OFFSET LIMIT clause
+- BETWEEN keyword
+- IN keyword
 
 ## Requirements
 There are no specific requirements that the extension requires.
