@@ -37,6 +37,20 @@
               "offset ${1: } limit ${2: }"
           ],
           "description": "Cosmos DB offset limit clause"
+      },
+      "between": {
+          "prefix": "between",
+          "body": [
+              "between ${1: } and ${2: }"
+          ],
+          "description": "Cosmos DB between keyword"
+      },
+      "in": {
+          "prefix": "in",
+          "body": [
+              "in  ( ${1: } )"
+          ],
+          "description": "Cosmos DB in keyword"
       }
     }
   }
