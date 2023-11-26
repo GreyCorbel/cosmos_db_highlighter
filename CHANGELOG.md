@@ -13,3 +13,7 @@
 
 ## v1.0.8
 - added select * from c where c. snippet
+
+## v1.1.2
+- added more snippets
+
