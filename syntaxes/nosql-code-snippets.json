@@ -27,7 +27,7 @@
           "prefix": "join",
           "body": [
               "join",
-              "  d in in c.${1: }"
+              "  d in c.${1: }"
           ],
           "description": "Cosmos DB join statement"
       },
